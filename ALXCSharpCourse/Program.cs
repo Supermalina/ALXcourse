@@ -16,6 +16,7 @@ namespace ALXCSharpCourse
             //FunctionsDemo.Run();
             //ClassesDemo.Run();
             EnumsDemo.Run();
+            Console.WriteLine("Hallo");
         }
     }
 }
