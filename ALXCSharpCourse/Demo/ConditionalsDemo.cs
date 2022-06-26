@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ALXCSharpCourse.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,7 @@ namespace ALXCSharpCourse.Demo
             }
             else if (number == 15)
             {
-                Console.WriteLine($"The {number} is equal than 15");
+                Console.WriteLine($"The {number} is equal 15");
             }
             else if (number == 3)
             {
@@ -52,6 +53,50 @@ namespace ALXCSharpCourse.Demo
             {
                 Console.WriteLine("The given input is not a number!");
             }
+
         }
+        public static void RunSwitch()
+        {
+            var sex = Sex.FEMALE;
+            switch (sex)
+            {
+                case Sex.MALE:
+                    Console.WriteLine("The sex is male");
+                    break;
+                case Sex.FEMALE:
+                    Console.WriteLine("The sex is female");
+            
+                    break;
+                case Sex.CUSTOM:
+                    Console.WriteLine("The sex is custom");
+                    break;
+                default:
+                    Console.WriteLine("default");
+                    break;
+                
+            }
+            Console.WriteLine("Switch end...");
+
+            var number = 0;
+            switch (number)
+            {
+                case 0:
+                    Console.WriteLine("Hello");
+                    break;
+                case 1:
+                    Console.WriteLine("Hi");
+
+                    break;
+                case 126:
+                    Console.WriteLine("Bye");
+                    break;
+                default:
+                    Console.WriteLine("default");
+                    break;
+
+            }
+            Console.WriteLine("Switch end...");
+        }
+
     }
 }

@@ -17,7 +17,14 @@ namespace ALXCSharpCourse
             //ClassesDemo.Run();
             //EnumsDemo.Run();
             //Console.WriteLine("Hallo");
-            ConditionalsDemo.RunNumberApp();
+            //ConditionalsDemo.RunNumberApp();
+            //ArraysAndListsDemo.RunLists();
+            //LoopsDemo.Run();
+            //ConditionalsDemo.RunSwitch();
+            GlobalAndLocalVariablesDemo.Run();
+            Console.WriteLine("Bye");
+            
+
 
         }
     }
